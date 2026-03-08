@@ -21,8 +21,10 @@ User experience
 ## OUTPUT
 zero-short prompt:
 * prompt:
+  
    The Taj Mahal is an ivory-white marble mausoleum in Agra, India.
 * output in chatGPT Tool:
+  
     About the Taj Mahal
 
 Construction started in 1632 and was completed around 1653.
@@ -30,7 +32,7 @@ Construction started in 1632 and was completed around 1653.
   - Around 20,000 workers and artisans were involved in building it.
   - The chief architect is widely believed to be Ustad Ahmad Lahori.
   - It is now recognized as a UNESCO World Heritage Site and one of the New7Wonders of the World.
-  - 
+    
 * output in Gemini Tool:
   
    It certainly is! Often cited as the "jewel of Muslim art in India," it’s one of the most universally admired masterpieces of the world's heritage.
@@ -62,6 +64,7 @@ ________________________________________________________________________________
 Few-short prompt:
 
 * prompt:
+  
    The Taj Mahal is an ivory-white marble mausoleum in Agra, India, commissioned in 1632 by Mughal emperor Shah Jahan to house the tomb of his beloved wife, Mumtaz Mahal.
 *output in ChapGPT Tool:
 
@@ -109,6 +112,7 @@ ________________________________________________________________________________
 Chain-of-thought:
 
 *prompt:
+
   I need this in Step-by-Step Construction Process
    Choosing the Location
    Preparing the Foundation
@@ -117,6 +121,7 @@ Chain-of-thought:
    Decorative Work
    
 *output in ChatGPT Tool:
+
  ---- Step-by-Step Construction Process
 Step 1: Choosing the Location
 The site near the Yamuna River was selected for its beauty and stable ground.
@@ -143,8 +148,8 @@ A beautiful Mughal garden (Charbagh) was created in front of the monument.
 Pathways, fountains, and reflecting pools were added.
 
 *output in Gemini Tool:
-   To understand the Taj Mahal's journey from a concept to a world wonder, it is best to look at it as a chronological and structural sequence.
 
+   To understand the Taj Mahal's journey from a concept to a world wonder, it is best to look at it as a chronological and structural sequence.
 Here is the step-by-step breakdown of how it was conceived, built, and finished.
 
 Step 1: The Vision and Site Selection (1631–1632)
@@ -172,6 +177,7 @@ Pietra Dura (Stone Inlay): Artisans used tiny, precious stones (like lapis lazul
 Calligraphy: Inscriptions from the Quran were created using black marble inlay. As the writing goes higher up the walls, the letters get slightly larger so that they appear uniform to a person standing on the ground.
 
 *output in Perplexity Tool:
+
      The Taj Mahal's construction unfolded over 22 years (1632–1653), involving over 20,000 workers under chief architect Ustad Ahmad Lahauri.
      
 Phase 1: Foundation and Platform (1632–1635)
@@ -188,17 +194,20 @@ Subsidiary structures like the mosque, guest house, and grand gateway were finis
 ​
 
 ## RESULT
-                 Zero-short       Few-short       Chain-of -thought
-                 ChatGPT          Gemini          Perplexity
-           
-* Accuracy         4                5               4
+______________________________________________________________________
+|                 Zero-short       Few-short       Chain-of -thought   |
+|                 ChatGPT          Gemini          Perplexity          |
+|----------------------------------------------------------------------|
+|* Accuracy         4                5               4                 |
+|----------------------------------------------------------------------|
+|* Coherence        5                4               3                 |
+|----------------------------------------------------------------------|
+|* Simplicity       3                4               3                 |
+|----------------------------------------------------------------------|
+|* Speed            4                5               5                 |
+|----------------------------------------------------------------------|
+|* User experience  5                5               4                 |
+|----------------------------------------------------------------------|
 
-* Coherence        5                4               3 
-
-* Simplicity       3                4               3
-
-* Speed            4                5               5
-
-* User experience  5                5               4
 
 Considering the above prompts and outputs, ChatGPT provides the best summary in terms of accuracy,Coherance, Simplicity, Speed, User experience.
